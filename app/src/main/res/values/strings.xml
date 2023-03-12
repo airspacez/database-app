@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">dbApplication</string>
+    <string name="_123">123</string>
+    <string name="_1233">123</string>
+    <string name="_123312">123312</string>
+    <string name="add_user">Add User</string>
+    <string name="first_name">First name</string>
+    <string name="second_name">Second Name</string>
+    <string name="email">E-mail</string>
+    <string name="save">Save</string>
+</resources>
