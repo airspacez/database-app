@@ -26,6 +26,9 @@ class MainActivity : AppCompatActivity(), UserAdapter.OnDeleteClickListener {
         recyclerView = findViewById(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
 
+        val myItemDecoration = ItemDecor(2, 16)
+        recyclerView.addItemDecoration(myItemDecoration)
+
         val fabAddUser = findViewById<FloatingActionButton>(R.id.floatingActionButton)
 
         fabAddUser.setOnClickListener {
